@@ -13,3 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(document).ready(function(){
+  $("div#cube").toggleClass("show-back");
+  $("div#cube").click(function(){
+    $("div#cube").removeClass();
+    $("div#cube").toggleClass("show-front")
+  })
+});
