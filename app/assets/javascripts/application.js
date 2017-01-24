@@ -13,3 +13,36 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(document).ready(function(){
+  // $("div#cube").toggleClass("show-front");
+  $("button.1").click(function(){
+    $("div#cube").removeClass();
+    $("div#cube").toggleClass("show-front")
+  });
+
+  $("button.2").click(function(){
+    $("div#cube").removeClass();
+    $("div#cube").toggleClass("show-back")
+  });
+
+  $("button.3").click(function(){
+    $("div#cube").removeClass();
+    $("div#cube").toggleClass("show-right")
+  });
+
+  $("button.4").click(function(){
+    $("div#cube").removeClass();
+    $("div#cube").toggleClass("show-left")
+  });
+
+  $("button.5").click(function(){
+    $("div#cube").removeClass();
+    $("div#cube").toggleClass("show-top")
+  });
+
+  $("button.6").click(function(){
+    $("div#cube").removeClass();
+    $("div#cube").toggleClass("show-bottom")
+  });
+});
