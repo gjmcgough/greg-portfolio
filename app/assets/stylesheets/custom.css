@@ -30,19 +30,36 @@ figure {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 40px;
     -webkit-margin-end: 40px;
+    margin: 0;
 }
 
 #cube .front {
     background: red;
-
 }
 
+#cube .back {
+    background: green;
+}
+#cube .right {
+    background: blue;
+}
+#cube .left {
+    background: yellow;
+}
+#cube .top {
+    background: orange;
+}
+#cube .bottom {
+    background: violet;
+}
 #cube .front  { transform: rotateY(   0deg ) translateZ( 100px ); }
 #cube .back   { transform: rotateX( 180deg ) translateZ( 100px ); }
 #cube .right  { transform: rotateY(  90deg ) translateZ( 100px ); }
 #cube .left   { transform: rotateY( -90deg ) translateZ( 100px ); }
 #cube .top    { transform: rotateX(  90deg ) translateZ( 100px ); }
 #cube .bottom { transform: rotateX( -90deg ) translateZ( 100px ); }
+
+#cube { transform: translateZ( -100px ); }
 
 #cube.show-front  { transform: translateZ( -100px ) rotateY(    0deg ); }
 #cube.show-back   { transform: translateZ( -100px ) rotateX( -180deg ); }
