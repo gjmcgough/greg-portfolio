@@ -1,0 +1,20 @@
+{
+  "name": "greg-portfolio",
+  "homepage": "https://github.com/gjmcgough/greg-portfolio",
+  "authors": [
+    "Greg McGough <gjmcgough@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
