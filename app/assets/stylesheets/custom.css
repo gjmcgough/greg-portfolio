@@ -3,9 +3,6 @@ html {
   margin: auto;
 }
 
-
-
-
 * { box-sizing: border-box; }
 .video-background {
   background: #000;
@@ -22,12 +19,6 @@ html {
   height: 100%;
   pointer-events: none;
 }
-
-
-
-
-
-
 
 body {
   background-color: inherit;

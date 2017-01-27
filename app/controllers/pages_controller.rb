@@ -1,7 +1,10 @@
 class PagesController < ApplicationController
 
   def index
-    render 'pages/_index'
+    render '_index'
   end
 
+  def work
+    render '_lizano-photo'
+  end
 end
