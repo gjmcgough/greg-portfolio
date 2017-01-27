@@ -3,6 +3,14 @@ html {
   margin: auto;
 }
 
+body {
+  background-color: inherit;
+}
+
+#index-container {
+    background-image: image-url('greg_profile_pic.png');
+}
+
 .page-description {
   height: 225px;
   width: 525px;
