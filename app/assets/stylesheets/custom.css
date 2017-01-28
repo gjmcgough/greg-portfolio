@@ -24,16 +24,21 @@ html {
   background-color: #ABB2B9;
 }
 
+.btn {
+  padding: 50px;
+  margin-top: 37px;
+}
+
 .vid-desc {
   color: #ABB2B9;
   margin-top: 80vh;
-  margin-left: 56vh;
+  margin-left: 52vh;
   text-align: center;
   z-index: 1;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.7);
   padding-left: 10px;
-  margin-right: 320px;
+  margin-right: 300px;
 }
 
 .greg-desc {
@@ -76,7 +81,7 @@ body {
 .page-description {
   height: 225px;
   width: 525px;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   margin-top: -150.5%;
 }
 
@@ -101,7 +106,9 @@ img {
 .one {
     height: 33vh;
     text-align: center;
-    padding: 5%;
+    padding: 0;
+    margin: 0;
+    /*border: 2px solid red;*/
 }
 
 .container {
