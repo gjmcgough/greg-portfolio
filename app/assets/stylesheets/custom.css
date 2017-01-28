@@ -3,6 +3,10 @@ html {
   margin: auto;
 }
 
+.resume-container {
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }
