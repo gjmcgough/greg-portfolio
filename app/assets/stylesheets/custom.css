@@ -3,13 +3,57 @@ html {
   margin: auto;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
+
 .video-background {
-  background: #000;
+  background: #1F618D;
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
 }
+
+.navbar {
+  background-color: #1F618D;
+  margin-left: -6vw;
+  margin-right: -6vw;
+}
+
+.dropdown-menu {
+  background-color: #ABB2B9;
+}
+
+.vid-desc {
+  color: #ABB2B9;
+  margin-top: 80vh;
+  margin-left: 56vh;
+  text-align: center;
+  z-index: 1;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding-left: 10px;
+  margin-right: 320px;
+}
+
+.greg-desc {
+  /*margin: 7px;*/
+  margin-top: -15vh;
+  margin-left: 25vw;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 50%;
+  color: #ABB2B9;
+  text-align: center;
+  /*font-family: 'Poiret One', cursive;*/
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  z-index: 1;
+}
+
 .video-foreground,
 .video-background iframe {
   position: absolute;
@@ -21,7 +65,8 @@ html {
 }
 
 body {
-  background-color: inherit;
+  background: #1F618D;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #index-container {
@@ -38,18 +83,11 @@ body {
 .nav {
   text-align: center;
 }
+
 .navbar-fixed-side {
   height: 100vh;
   z-index: 1;
 }
-/*
-.left {
-  margin-left: -20px;
-}
-
-.right {
-  margin-right: 20px;
-}*/
 
 .btn {
   z-index: 10;
@@ -61,7 +99,6 @@ img {
 }
 
 .one {
-    /*border: 2px solid white;*/
     height: 33vh;
     text-align: center;
     padding: 5%;
@@ -96,7 +133,6 @@ img {
     font-weight: bold;
     color: white;
     text-align: center;
-    /*-webkit-backface-visibility: hidden;*/
 }
 
 figure {
@@ -106,29 +142,8 @@ figure {
     -webkit-margin-start: 40px;
     -webkit-margin-end: 40px;
     margin: 0;
-    /*margin: auto;*/
-    /*margin-left: 13%;*/
 }
 
-#cube .front {
-    /*background: red;*/
-}
-
-#cube .back {
-    background: green;
-}
-#cube .right {
-    background: blue;
-}
-#cube .left {
-    background: yellow;
-}
-#cube .top {
-    background: orange;
-}
-#cube .bottom {
-    background: violet;
-}
 #cube .front  { transform: rotateY(   0deg ) translateZ( 262px ); }
 #cube .back   { transform: rotateX( 180deg ) translateZ( 262px ); }
 #cube .right  { transform: rotateY(  90deg ) translateZ( 262px ); }
