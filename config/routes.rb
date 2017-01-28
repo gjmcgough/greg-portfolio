@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root 'pages#index'
 
   get 'work', to: 'pages#work'
+  get 'resume', to: 'pages#resume'
 end
